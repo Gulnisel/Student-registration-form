@@ -1,0 +1,138 @@
+body {
+  font-size: 13px;
+  line-height: 1.8;
+  color: #222;
+  font-weight: 400;
+  background: #282828;
+  padding: 90px 0;
+}
+.container {
+  width: 1400px;
+  position: relative;
+  margin: 0 auto;
+  background: #fff;
+}
+display-flex, .signup-content, .form-row, .form-radio, .select-icon, .select-icon i {
+  display: flex;
+  display: -webkit-flex;
+}
+.signup-img {
+  margin-bottom: -7px;
+}
+.signup-img, .signup-form {
+  width: 50%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.register-form {
+  padding: 50px 100px 50px 70px;
+}
+form {
+  display: block;
+  margin-top: 0em;
+  margin-left: 60px;
+  margin-right: 100px;
+}
+h2 {
+  line-height: 1.66;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  color: #222;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+input {
+  display: block;
+  width: 100%;
+  border: 1px solid #ebebeb;
+  padding: 11px 20px;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+.form-row {
+  margin: 0 -15px;
+}
+
+.form-row .form-group {
+  width: 50%;
+  padding: 0 15px;
+}
+
+.form-radio {
+  margin-bottom: 18px;
+}
+display-flex, .signup-content, .form-row, .form-radio, .select-icon, .select-icon i {
+  display: flex;
+  display: -webkit-flex;
+}
+div {
+  display: block;
+}
+
+.radio-label {
+  padding-right: 72px;
+
+}
+
+.form-radio-item {
+  position: relative;
+  margin-right: 15px;
+  margin-left: 60px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Montserrat';
+  margin-bottom: 0px;
+  display: block;
+}
+label {
+  cursor: default;
+}
+
+input, select {
+  display: block;
+  width: 100%;
+  border: 1px solid #ebebeb;
+  padding: 11px 20px;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+
+.form-submit {
+  text-align: right;
+  padding-top: 27px;
+}
+#reset {
+  background: #f8f8f8;
+  color: #999;
+  margin-right: 8px;
+}
+#submit {
+  background: #ff6801;
+  color: #fff;
+}
+.submit {
+  width: 140px;
+  height: 40px;
+  display: inline-block;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 13px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
